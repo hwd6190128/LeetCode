@@ -2,13 +2,11 @@ package com.chlaung.leetcode
 
 /**
  * @ClassName: IntersectionOfTwoArraysII
- * @Description: 350. Given two arrays, write a function to compute their intersection.
-1. Each element in the result should appear as many times as it shows in both arrays.
-2. The result can be in any order.
- *
+ * @Description: 350. IntersectionOfTwoArraysII
+ *               Given two arrays, write a function to compute their intersection.
+ *               1. Each element in the result should appear as many times as it shows in both arrays.
+ *               2. The result can be in any order.
  * @Date: 2019-08-19 11:52
- * @History:
- * <date> <version> <desc>
  */
 class IntersectionOfTwoArraysII {
 

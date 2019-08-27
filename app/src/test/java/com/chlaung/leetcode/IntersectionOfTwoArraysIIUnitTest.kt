@@ -6,8 +6,10 @@ import org.junit.Assert.assertTrue
 import org.junit.Test
 
 /**
- * UnitTest for LeetCode 350. Intersection of Two Arrays II
- * [https://leetcode.com/problems/intersection-of-two-arrays-ii/]
+ * @ClassName: IntersectionOfTwoArraysIIUnitTest
+ * @Description: UnitTest for LeetCode 350. Intersection of Two Arrays II
+ *               [https://leetcode.com/problems/intersection-of-two-arrays-ii/]
+ * @Date: 2019-08-19 11:47
  */
 class IntersectionOfTwoArraysIIUnitTest {
 
