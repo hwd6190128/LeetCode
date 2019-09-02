@@ -15,7 +15,7 @@ class MergeSortedArrayUnitTest {
 
     /** Example 1 */
     @Test
-    fun moveZeroes_Test01() {
+    fun searchInsertPosition_Test01() {
         val nums1 = intArrayOf(3, 2, 1, 0, 0, 0)
         val m = 3
         val nums2 = intArrayOf(2, 5, 6)

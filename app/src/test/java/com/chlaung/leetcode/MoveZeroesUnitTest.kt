@@ -15,7 +15,7 @@ class MoveZeroesUnitTest {
 
     /** Example 1 */
     @Test
-    fun moveZeroes_Test01() {
+    fun searchInsertPosition_Test01() {
         val nums = intArrayOf(0, 1, 0, 3, 12)
         val result = mMoveZeroes.moveZeroes(nums)
 
@@ -25,7 +25,7 @@ class MoveZeroesUnitTest {
 
     /** Example 2 */
     @Test
-    fun moveZeroes_Test02() {
+    fun searchInsertPosition_Test02() {
         val nums = intArrayOf(2, 1)
         val result = mMoveZeroes.moveZeroes(nums)
 
