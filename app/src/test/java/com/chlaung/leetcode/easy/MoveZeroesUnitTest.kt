@@ -1,5 +1,6 @@
-package com.chlaung.leetcode
+package com.chlaung.leetcode.easy
 
+import com.chlaung.leetcode.easy.MoveZeroes
 import org.junit.Assert
 import org.junit.Test
 

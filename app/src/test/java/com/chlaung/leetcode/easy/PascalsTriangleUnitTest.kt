@@ -1,5 +1,6 @@
-package com.chlaung.leetcode
+package com.chlaung.leetcode.easy
 
+import com.chlaung.leetcode.easy.PascalsTriangle
 import org.junit.Assert
 import org.junit.Test
 
@@ -11,7 +12,8 @@ import org.junit.Test
  */
 class PascalsTriangleUnitTest {
 
-    private var mPascalsTriangle: PascalsTriangle = PascalsTriangle()
+    private var mPascalsTriangle: PascalsTriangle =
+        PascalsTriangle()
 
     /** Example 1 */
     @Test

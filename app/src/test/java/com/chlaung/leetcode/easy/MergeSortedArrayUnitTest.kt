@@ -1,5 +1,6 @@
-package com.chlaung.leetcode
+package com.chlaung.leetcode.easy
 
+import com.chlaung.leetcode.easy.MergeSortedArray
 import org.junit.Assert
 import org.junit.Test
 
@@ -11,7 +12,8 @@ import org.junit.Test
  */
 class MergeSortedArrayUnitTest {
 
-    private var mMergeSortedArray: MergeSortedArray = MergeSortedArray()
+    private var mMergeSortedArray: MergeSortedArray =
+        MergeSortedArray()
 
     /** Example 1 */
     @Test

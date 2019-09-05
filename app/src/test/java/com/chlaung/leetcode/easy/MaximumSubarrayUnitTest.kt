@@ -1,5 +1,6 @@
-package com.chlaung.leetcode
+package com.chlaung.leetcode.easy
 
+import com.chlaung.leetcode.easy.MaximumSubarray
 import org.junit.Assert
 import org.junit.Test
 
@@ -10,7 +11,8 @@ import org.junit.Test
  * @Date: 2019-09-02 15:52
  */
 class MaximumSubarrayUnitTest {
-    private var mMaximumSubarray: MaximumSubarray = MaximumSubarray()
+    private var mMaximumSubarray: MaximumSubarray =
+        MaximumSubarray()
 
     /** Example 1 */
     @Test

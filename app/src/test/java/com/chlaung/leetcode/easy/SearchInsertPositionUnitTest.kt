@@ -1,5 +1,6 @@
-package com.chlaung.leetcode
+package com.chlaung.leetcode.easy
 
+import com.chlaung.leetcode.easy.SearchInsertPosition
 import org.junit.Assert
 import org.junit.Test
 
@@ -11,7 +12,8 @@ import org.junit.Test
  */
 class SearchInsertPositionUnitTest {
 
-    private var mSearchInsertPosition: SearchInsertPosition = SearchInsertPosition()
+    private var mSearchInsertPosition: SearchInsertPosition =
+        SearchInsertPosition()
 
     /** Example 1 */
     @Test

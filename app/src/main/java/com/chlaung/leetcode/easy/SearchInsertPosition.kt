@@ -1,4 +1,4 @@
-package com.chlaung.leetcode
+package com.chlaung.leetcode.easy
 
 /**
  * @ClassName: SearchInsertPosition
