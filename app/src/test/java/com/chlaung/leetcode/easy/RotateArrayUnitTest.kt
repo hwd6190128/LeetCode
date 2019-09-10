@@ -34,4 +34,15 @@ class RotateArrayUnitTest {
         val expected = intArrayOf(3, 99, -1, -100)
         Assert.assertArrayEquals(expected, result)
     }
+
+    /** Example 3 */
+    @Test
+    fun rotateArray_Test03() {
+        val nums = intArrayOf(1, 2)
+        val k = 3
+        val result = mRotateArray.rotate(nums, k)
+
+        val expected = intArrayOf(2, 1)
+        Assert.assertArrayEquals(expected, result)
+    }
 }
