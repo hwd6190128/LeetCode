@@ -49,4 +49,24 @@ class PowerfulIntegers {
 
         return result.toList()
     }
+
+    fun powerfulIntegers2(x: Int, y: Int, bound: Int): List<Int> {
+        val result = HashSet<Int>()
+
+        var a = 1
+        while (a < bound) {
+            var b = 1
+            while (a + b <= bound) {
+                result.add(a + b)
+
+                if (y == 1) break // 1 的次方都是 1， add 一次即可
+                b *= y // y 次方多一
+            }
+
+            if (x == 1) break // 1 的次方都是 1， add 一次即可
+            a *= x // x 次方多一
+        }
+
+        return ArrayList(result)
+    }
 }
