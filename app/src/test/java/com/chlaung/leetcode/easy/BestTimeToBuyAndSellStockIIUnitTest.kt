@@ -5,7 +5,7 @@ import org.junit.Before
 import org.junit.Test
 
 /**
- * @ClassName: TwoSumUnitTest
+ * @ClassName: BestTimeToBuyAndSellStockIIUnitTest
  * @Description: UnitTest for LeetCode 122. Best Time to Buy and Sell Stock II
  *              [https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/]
  * @Date: 2019-10-01 11:30
