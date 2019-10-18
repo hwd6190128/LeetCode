@@ -31,7 +31,34 @@ class ReverseLinkedListUnitTest {
         l12.next = l13
         l1.next = l12
 
-        val result = mReverseLinkedList.reverseList(l1)
+        val result = mReverseLinkedList.reverseListIteratively(l1)
+
+        val expected = ReverseLinkedList.ListNode(5)
+        val expected2 = ReverseLinkedList.ListNode(4)
+        val expected3 = ReverseLinkedList.ListNode(3)
+        val expected4 = ReverseLinkedList.ListNode(2)
+        val expected5 = ReverseLinkedList.ListNode(1)
+        expected4.next = expected5
+        expected3.next = expected4
+        expected2.next = expected3
+        expected.next = expected2
+
+        Assert.assertArrayEquals(expected.transfer2Array(), result.transfer2Array())
+    }
+
+    @Test
+    fun reverseLinkedList_Test02() {
+        val l1 = ReverseLinkedList.ListNode(1)
+        val l12 = ReverseLinkedList.ListNode(2)
+        val l13 = ReverseLinkedList.ListNode(3)
+        val l14 = ReverseLinkedList.ListNode(4)
+        val l15 = ReverseLinkedList.ListNode(5)
+        l14.next = l15
+        l13.next = l14
+        l12.next = l13
+        l1.next = l12
+
+        val result = mReverseLinkedList.reverseListRecursively(l1)
 
         val expected = ReverseLinkedList.ListNode(5)
         val expected2 = ReverseLinkedList.ListNode(4)
