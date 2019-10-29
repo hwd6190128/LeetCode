@@ -24,10 +24,14 @@ class SingleNumberUnitTest {
         val nums = intArrayOf(2, 2, 1)
         val result = mSingleNumber.singleNumber(nums)
         val result2 = mSingleNumber.singleNumber2(nums)
+        val result3 = mSingleNumber.singleNumber3(nums)
+        val result4 = mSingleNumber.singleNumber4(nums)
 
         val expected = 1
         Assert.assertEquals(expected, result)
         Assert.assertEquals(expected, result2)
+        Assert.assertEquals(expected, result3)
+        Assert.assertEquals(expected, result4)
     }
 
     @Test
@@ -35,10 +39,14 @@ class SingleNumberUnitTest {
         val nums = intArrayOf(4, 1, 2, 1, 2)
         val result = mSingleNumber.singleNumber(nums)
         val result2 = mSingleNumber.singleNumber2(nums)
+        val result3 = mSingleNumber.singleNumber3(nums)
+        val result4 = mSingleNumber.singleNumber4(nums)
 
         val expected = 4
         Assert.assertEquals(expected, result)
         Assert.assertEquals(expected, result2)
+        Assert.assertEquals(expected, result3)
+        Assert.assertEquals(expected, result4)
     }
 
     @Test
@@ -46,9 +54,13 @@ class SingleNumberUnitTest {
         val nums = intArrayOf(-1, -1, -2)
         val result = mSingleNumber.singleNumber(nums)
         val result2 = mSingleNumber.singleNumber2(nums)
+        val result3 = mSingleNumber.singleNumber3(nums)
+        val result4 = mSingleNumber.singleNumber4(nums)
 
         val expected = -2
         Assert.assertEquals(expected, result)
         Assert.assertEquals(expected, result2)
+        Assert.assertEquals(expected, result3)
+        Assert.assertEquals(expected, result4)
     }
 }

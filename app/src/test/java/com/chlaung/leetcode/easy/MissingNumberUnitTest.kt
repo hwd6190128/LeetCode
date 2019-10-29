@@ -18,9 +18,11 @@ class MissingNumberUnitTest {
     fun missingNumber_Test01() {
         val nums = intArrayOf(3, 0, 1)
         val result = mMissingNumber.missingNumber(nums)
+        val result2 = mMissingNumber.missingNumber2(nums)
 
         val expected = 2
         Assert.assertEquals(expected, result)
+        Assert.assertEquals(expected, result2)
     }
 
     /** Example 2 */
@@ -28,9 +30,11 @@ class MissingNumberUnitTest {
     fun missingNumber_Test02() {
         val nums = intArrayOf(9, 6, 4, 2, 3, 5, 7, 0, 1)
         val result = mMissingNumber.missingNumber(nums)
+        val result2 = mMissingNumber.missingNumber2(nums)
 
         val expected = 8
         Assert.assertEquals(expected, result)
+        Assert.assertEquals(expected, result2)
     }
 
     /** Example 3 */
@@ -38,9 +42,11 @@ class MissingNumberUnitTest {
     fun missingNumber_Test03() {
         val nums = intArrayOf(0)
         val result = mMissingNumber.missingNumber(nums)
+        val result2 = mMissingNumber.missingNumber2(nums)
 
         val expected = 1
         Assert.assertEquals(expected, result)
+        Assert.assertEquals(expected, result2)
     }
 
     /** Example 4 */
@@ -48,9 +54,11 @@ class MissingNumberUnitTest {
     fun missingNumber_Test04() {
         val nums = intArrayOf(0, 1)
         val result = mMissingNumber.missingNumber(nums)
+        val result2 = mMissingNumber.missingNumber2(nums)
 
         val expected = 2
         Assert.assertEquals(expected, result)
+        Assert.assertEquals(expected, result2)
     }
 
     /** Example 5 */
@@ -58,8 +66,10 @@ class MissingNumberUnitTest {
     fun missingNumber_Test05() {
         val nums = intArrayOf(0, 1, 2)
         val result = mMissingNumber.missingNumber(nums)
+        val result2 = mMissingNumber.missingNumber2(nums)
 
         val expected = 3
         Assert.assertEquals(expected, result)
+        Assert.assertEquals(expected, result2)
     }
 }
